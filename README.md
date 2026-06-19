@@ -1,6 +1,6 @@
-# 🏬 商超管理系统 (Retail Management Platform)
+# 🏬 Retail Management Platform
 
-一个基于 **Vue 3 + Spring Boot** 的全栈零售管理平台，支持多角色（管理员、商家、普通用户）权限管理，涵盖商品管理、订单处理、用户管理、数据统计等核心业务功能。
+A full-stack retail management platform built with **Vue 3 + Spring Boot**, featuring multi-role access control (Admin, Merchant, User), product management, order processing, user administration, and data analytics.
 
 ---
 
@@ -210,19 +210,6 @@ npm run dev
 
 ---
 
-## 📝 课程设计说明
-
-本项目为 **Web 前端框架技术课程设计**，重点展示：
-
-1. **Vue 3 组件化开发**：合理拆分公共组件与业务组件
-2. **Vue Router 权限路由**：基于角色的动态路由与导航守卫
-3. **Element Plus 实战**：表单、表格、对话框、上传等组件综合应用
-4. **ECharts 数据可视化**：图表配置与动态数据绑定
-5. **前后端联调**：Axios 封装、请求拦截、代理配置
-6. **Spring Boot 后端**：RESTful API 设计、JPA 数据持久化、Spring Security 安全控制
-
----
-
 ## 📄 License
 
-本项目仅用于课程学习与展示。
+This project is available for learning and demonstration purposes.

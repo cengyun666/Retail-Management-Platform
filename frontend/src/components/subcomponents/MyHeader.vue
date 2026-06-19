@@ -2,7 +2,7 @@
     <header class="layout-header-container">
         <div class="layout-header-left">
             <div class="logo-container">
-                <h1 class="layout-header-left-title">商超管理系统</h1>
+                <h1 class="layout-header-left-title">Retail Management Platform</h1>
             </div>
         </div>
         <div class="layout-header-right">
