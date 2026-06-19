@@ -1,0 +1,9 @@
+-- 插入初始用户数据
+INSERT INTO users (username, password, name, email, role) VALUES
+('admin', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDa', '管理员', 'admin@example.com', 'admin');
+INSERT INTO users (username, password, name, email, role) VALUES
+('merchant001', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDa', '商家小明', 'merchant@example.com', 'merchant');
+INSERT INTO users (username, password, name, email, role) VALUES
+('user001', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDa', '普通用户小红', 'user@example.com', 'user');
+INSERT INTO users (username, password, name, email, role) VALUES
+('user002', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDa', '普通用户小兰', 'xiaolan@example.com', 'user');

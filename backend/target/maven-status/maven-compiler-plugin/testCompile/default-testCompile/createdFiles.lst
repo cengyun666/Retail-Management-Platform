@@ -1,0 +1,16 @@
+com\example\userauth\DebugOrderItemTest.class
+com\example\userauth\GoodsManagementTest.class
+com\example\userauth\controller\UserControllerTest.class
+com\example\userauth\PureDatabaseTest.class
+com\example\userauth\DatabaseConnectionTest.class
+com\example\userauth\StockZeroAutoOfflineTest.class
+com\example\userauth\controller\GoodsControllerTest.class
+com\example\userauth\service\UserServiceTest.class
+com\example\userauth\DebugSqlInsert.class
+com\example\userauth\StockConsistencyTest.class
+com\example\userauth\PasswordTest.class
+com\example\userauth\controller\GoodsTestController.class
+com\example\userauth\controller\TestController.class
+com\example\apitest\GoodsApiTest.class
+com\example\userauth\OrderItemTest.class
+com\example\userauth\SimpleDatabaseTest.class
