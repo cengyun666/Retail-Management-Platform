@@ -1,6 +1,6 @@
-# 🏬 Retail Management Platform
+# 🍿 零食业务管理平台
 
-A full-stack retail management platform built with **Vue 3 + Spring Boot**, featuring multi-role access control (Admin, Merchant, User), product management, order processing, user administration, and data analytics.
+基于 **Vue 3 + Spring Boot** 的全栈零食零售管理平台，支持多角色（管理员、商家、普通用户）权限管理，涵盖零食商品管理、订单处理、用户管理、数据统计等核心业务功能。
 
 ---
 
@@ -9,14 +9,14 @@ A full-stack retail management platform built with **Vue 3 + Spring Boot**, feat
 ### 🔐 用户认证与权限
 - 用户注册 / 登录（BCrypt 密码加密）
 - 基于角色的访问控制（**RBAC**），三种角色：
-  - **管理员 (Admin)** — 全部权限，可管理用户、商品、订单、分类、轮播图，查看数据大屏
-  - **商家 (Merchant)** — 管理自己的商品、分类，处理订单
-  - **普通用户 (User)** — 浏览商品、加入购物车、下单购买
+  - **管理员 (Admin)** — 全部权限，可管理用户、零食商品、订单、分类、轮播图，查看数据大屏
+  - **商家 (Merchant)** — 管理自己的零食商品、分类，处理订单
+  - **普通用户 (User)** — 浏览零食商品、加入购物车、下单购买
 
-### 📦 商品管理
-- 商品 CRUD（创建、查看、修改、删除/下架）
-- 商品图片上传（支持多图）
-- 商品分类管理（多级分类）
+### 🍪 零食商品管理
+- 零食商品 CRUD（创建、查看、修改、删除/下架）
+- 零食商品图片上传（支持多图）
+- 零食分类管理（多级分类）
 - 库存自动管理（库存归零自动下架）
 
 ### 🛒 购物与订单
@@ -32,7 +32,7 @@ A full-stack retail management platform built with **Vue 3 + Spring Boot**, feat
 
 ### 🎠 运营管理
 - 首页轮播图管理
-- 商品分类管理
+- 零食分类管理
 - 用户信息管理
 
 ---
@@ -155,8 +155,8 @@ npm run dev
 | 角色 | 用户名 | 密码 | 说明 |
 |------|--------|------|------|
 | 管理员 | `admin` | `123456` | 拥有全部权限 |
-| 商家 | `merchant001` | `123456` | 可管理商品和订单 |
-| 普通用户 | `user001` | `123456` | 可浏览和购买商品 |
+| 商家 | `merchant001` | `123456` | 可管理零食商品和订单 |
+| 普通用户 | `user001` | `123456` | 可浏览和购买零食商品 |
 
 ---
 
@@ -167,8 +167,8 @@ npm run dev
 | 用户 | `/api/users/register` | POST | 用户注册 |
 | 用户 | `/api/users/login` | POST | 用户登录 |
 | 用户 | `/api/users/{username}` | GET | 获取用户信息 |
-| 商品 | `/api/goods` | GET/POST | 商品列表 / 新增 |
-| 商品 | `/api/goods/{id}` | GET/PUT/DELETE | 商品详情 / 修改 / 删除 |
+| 零食商品 | `/api/goods` | GET/POST | 零食商品列表 / 新增 |
+| 零食商品 | `/api/goods/{id}` | GET/PUT/DELETE | 零食商品详情 / 修改 / 删除 |
 | 分类 | `/api/categories` | GET/POST | 分类列表 / 新增 |
 | 订单 | `/api/orders` | GET/POST | 订单列表 / 创建 |
 | 订单 | `/api/orders/{id}` | GET/PUT | 订单详情 / 更新 |
@@ -180,15 +180,14 @@ npm run dev
 
 ---
 
-## 🎨 功能截图
+## 🎨 角色与权限体系
 
-### 角色与权限体系
 ```
 ┌──────────┐    ┌──────────┐    ┌──────────┐
 │  管理员   │    │   商家    │    │ 普通用户  │
 │  Admin   │    │ Merchant │    │   User   │
 ├──────────┤    ├──────────┤    ├──────────┤
-│ 全部权限  │    │ 商品管理  │    │ 浏览商品  │
+│ 全部权限  │    │ 零食管理  │    │ 浏览零食  │
 │ 用户管理  │    │ 分类管理  │    │ 购物车   │
 │ 商品管理  │    │ 订单处理  │    │ 下单购买  │
 │ 订单管理  │    │ 库存管理  │    │ 查看订单  │
@@ -206,10 +205,10 @@ npm run dev
 - **Token 认证**：基于 Bearer Token 的无状态认证
 - **权限控制**：前端路由守卫 + 后端拦截器双重校验
 - **全局异常处理**：统一 API 响应格式 `{ code, message, data }`
-- **文件上传**：支持商品图片上传至本地存储
+- **文件上传**：支持零食商品图片上传至本地存储
 
 ---
 
 ## 📄 License
 
-This project is available for learning and demonstration purposes.
+本项目仅供学习与展示使用。

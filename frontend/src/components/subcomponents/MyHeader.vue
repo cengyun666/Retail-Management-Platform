@@ -2,7 +2,7 @@
     <header class="layout-header-container">
         <div class="layout-header-left">
             <div class="logo-container">
-                <h1 class="layout-header-left-title">Retail Management Platform</h1>
+                <h1 class="layout-header-left-title">零食业务管理平台</h1>
             </div>
         </div>
         <div class="layout-header-right">
